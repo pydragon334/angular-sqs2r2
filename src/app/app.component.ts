@@ -7,4 +7,21 @@ import { Component } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular';
+
+  item = [{
+    nama: 'jeruk',
+    harga: 15000
+  },{
+    nama: 'kue',
+    harga: 20000
+  }];
+
+  itemArr = [1,2,3,4];
+
+  show: boolean = true;
+
+  user ={
+    nama : 'abc'
+  };
+
 }
